@@ -1,0 +1,39 @@
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 0.8em;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body>section>header {
+    height: 200px;
+    background-image: url("../images/header.jpg ");
+    background-size: cover;
+}
+body>section>header>h1{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 10px;
+}
+article {
+    background-color: lightgrey;
+    margin: 5px;
+    padding: 5px;
+}
+
+article h1 {
+    text-decoration: underline;
+    font-size: 20px;
+}
+article p {
+
+}
+nav {
+    background-color: green;
+}
+nav > a{
+    color: #08c608;
+    text-decoration: solid;
+}
