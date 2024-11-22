@@ -1,0 +1,150 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #005f73;
+    border-bottom: 2px solid #94d2bd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #005f73;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #94d2bd;
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+aside table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+    background: white;
+}
+
+aside th, aside td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+aside th {
+    background-color: #005f73;
+    color: white;
+}
+
+aside caption {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+aside tr:nth-child(even) {
+    background-color: #f4f4f9;
+}
+
+ul li + ul li {
+    margin-top: 5px;
+}
+
+@media (max-width: 600px) {
+    section {
+        padding: 10px;
+    }
+
+    ul {
+        margin-left: 10px;
+    }
+
+    aside table {
+        width: 100%;
+    }
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font: normal 12px Arial, Helvetica, sans-serif;
+    background: #fff;
+    border: 1px solid #2E9943;
+    border-radius: 3px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #E1EEF4;
+    text-align: left;
+}
+
+table thead th {
+    background: linear-gradient(to bottom, #506199 5%, #25587F 100%);
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+table tbody tr:nth-child(odd) {
+    background: #E1EEF4;
+}
+
+table tbody tr:nth-child(even) {
+    background: #fff;
+}
+
+table tbody td {
+    color: #00557F;
+}
+
+table tbody tr:hover {
+    background-color: #D1EAF4;
+}
+
+table tfoot td {
+    background: #E1EEF4;
+    border-top: 1px solid #2E9943;
+    text-align: right;
+}

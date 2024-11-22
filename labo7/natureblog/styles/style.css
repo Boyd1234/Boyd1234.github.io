@@ -31,9 +31,12 @@ article p {
 
 }
 nav {
-    background-color: green;
+    background-color: #444444;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
 }
 nav > a{
     color: #08c608;
-    text-decoration: solid;
+    font-weight: bold;
+    text-decoration: none;
 }
