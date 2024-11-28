@@ -1,0 +1,33 @@
+body {
+    line-height: 1.6;
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    margin: 10px;
+}
+
+article {
+    margin-bottom: 10px;
+    font-size: 1.25em;
+    min-height: 280px;
+    border: 1px solid;
+    padding: 10px;
+}
+
+article img {
+    height:200px;
+    margin: 0 10px 10px 0;
+    float: left;
+}
+
+article:nth-child(even) img {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+article h2 {
+    margin-top: 0;
+}

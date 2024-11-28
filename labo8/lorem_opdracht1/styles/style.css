@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.column {
+    overflow: hidden;
+}
+
+.column_content {
+    float: left;
+    width: 50%;
+    margin-top: 2px;
+    padding: 10px;
+    border: 1px solid black;
+}

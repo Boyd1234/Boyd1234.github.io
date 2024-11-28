@@ -1,0 +1,85 @@
+body {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    margin: 0px;
+    padding:0px;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#weeklyspecials{
+    margin: 30px;
+    padding: 2%;
+    color: rgb(68, 68, 68);
+    border: 2px solid deepskyblue;
+    float: right;
+    width: 30%;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 1;
+    background: url("../images/cocktail.gif")repeat-x;
+}
+
+#blok1{
+    width: 70%;
+}
+
+article h1,
+article h2 {
+    color: rgb(0, 126, 126);
+}
+
+h1{
+    font-size: 150%;
+}
+
+h2{
+    font-size: 130%;
+}
+
+
+body > article > h1 {
+    color: black;
+}
+
+body > article > h2 {
+    color: red;
+}
+
+#claude{
+    font-weight: bold;
+}
+
+#buddha{
+    font-style: italic;
+}
+
+#guarantee{
+    border: 2px dotted white;
+    margin: 30px;
+    padding: 25px 25px 25px 80px;
+    color: #444444;
+    font-style: italic;
+    line-height: 1.9em;
+    font-family: Georgia,"Times New Roman", Times, serif;
+    background: #a7cece url("../images/background.gif") no-repeat top left;
+}
+a{
+    color: #444444;
+}
+footer{
+    font-size: 0.5em;
+    float: right;
+    text-align: center;
+}
+
+body > article > p> a:hover{
+    background-color: brown;
+}
