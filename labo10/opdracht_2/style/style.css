@@ -1,0 +1,12 @@
+div{
+    height: 200px;
+    margin: 30px auto;
+}
+
+.dark {
+    background-color: darkgray;
+}
+
+.light {
+    background-color: lightgray;
+}
