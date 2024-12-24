@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: lightskyblue;
+    font-family: Chalkboard, sans-serif;
+}
+
+h1 {text-align: center;}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+
+.border {border: 2px solid black;}
+
+section {
+    background:coral;
+    height: 500px;
+    display: flex;
+    /*flex-direction: row; /*default dus je moet dit niet schrijven*/
+    /*flex-direction: row-reverse;*/
+    /*flex-wrap: wrap;*/
+    justify-content: center; /*default*/
+    align-items: center;
+
+}
+.grey-box {
+    background: grey;
+    width: 100px; /* auto (bij flex) zorgt ervoor dat je de ingestelde breedte neemt. je kan ook dr gwn 100% zetten en deze lijn weg
+    flex: 0 1 auto; /*0 (de eerste) betekent je mag NIET groeien --> flex-grow; flex-shrink staat op 1 (de 2de) --> je mag inkrimpen; dit is default.*/
+    margin: 10px;
+    padding: 20px;
+    font-size: 2em;
+
+
+}
