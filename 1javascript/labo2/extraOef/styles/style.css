@@ -1,0 +1,9 @@
+.btnBullets{
+    list-style: unset;
+    background-color: white;
+}
+
+.btnNoBullets{
+    list-style: none;
+    background-color: red;
+}
