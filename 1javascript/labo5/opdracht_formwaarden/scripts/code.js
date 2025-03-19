@@ -20,8 +20,10 @@ const toon = () => {
     let selectedIndex=selFavorieteBuurland.selectedIndex;
     let option=selFavorieteBuurland.options[selectedIndex];
     console.log("favoriete buurland is "+option.text);
-    console.log(text);
 
+    let bestellingen = [];
+    document.querySelectorAll("#bestellingen option:checked").forEach(option => {
+        bestellingen.push(option.value)
 };
 
 
