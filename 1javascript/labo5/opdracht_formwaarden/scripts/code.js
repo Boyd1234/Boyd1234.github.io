@@ -1,21 +1,28 @@
 const setup = () => {
-    let btnResultaat = document.getElementById("btnResultaat");
-    btnResultaat.addEventListener("click", resultaatConsole)
-}
+    let btnToon = document.getElementById("btnToon");
+    btnToon.addEventListener("click", toon);
+};
+const toon = () => {
+    let chkIsRoker=document.getElementById("chkIsRoker");
+    if (chkIsRoker.checked) {
+        console.log("is roker");
+    } else {
+        console.log("is geen roker");
+    }
+    let rbtMoedertaal=document.getElementsByName("rbtMoedertaal");
+    for (let i=0;i<rbtMoedertaal.length;i++) {
+        if (rbtMoedertaal[i].checked) {
+            console.log("moedertaal is "+rbtMoedertaal[i].value);
+            break;
+        }
+    }
+    let selFavorieteBuurland=document.getElementById("selFavorieteBuurland");
+    let selectedIndex=selFavorieteBuurland.selectedIndex;
+    let option=selFavorieteBuurland.options[selectedIndex];
+    console.log("favoriete buurland is "+option.text);
+    console.log(text);
 
-const resultaatConsole = () => {
-    let roker = document.getElementById("roker").checked ? "is een roker" : "is geen roker";
-    let moedertaal = document.querySelector('input[name="moedertaal"]:checked');
-    moedertaal = moedertaal? moedertaal.value : "niks gekozen";
-    let favBuurland = document.getElementById("favBl").value;
-    let bestellingen = [];
-    document.querySelectorAll("#bestellingen option:checked").forEach(option => {
-        bestellingen.push(option.value)
+};
 
-        console.log(roker);
-        console.log("moedertaal is " + moedertaal);
-        console.log("favoriete buurland is " + favBuurland);
-        console.log("bestelling bestaat uit " + bestellingen.join(", "));
-    })
-}
+
 window.addEventListener("load", setup);
