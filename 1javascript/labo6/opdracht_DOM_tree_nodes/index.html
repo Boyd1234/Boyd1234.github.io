@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>opdracht DOM tree nodes</title>
+</head>
+<body>
+<p id="abc">hallo
+<span>dit is een span</span>
+tekst</p>
+<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+<script>const setup = () => {
+ let node = document.querySelector("p")
+ console.log(node.textContent)
+}
+addEventListener("load", setup)</script>
+</body>
+</html>
