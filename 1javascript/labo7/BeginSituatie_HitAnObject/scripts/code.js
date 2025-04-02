@@ -47,7 +47,7 @@ const startSpel = () => {
 const moveImage = (img) => {
     img.style.top = Math.random() * img.parentElement.offsetHeight + "px";
     img.style.left = Math.random() * img.parentElement.offsetWidth + "px";
-    img.src = global.IMAGE_PATH_PREFIX + Math.round(Math.random() * 4) + global.IMAGE_PATH_SUFFIX;
+    img.src = global.IMAGE_PATH_PREFIX + Math.floor(Math.random() * global.IMAGE_COUNT) + global.IMAGE_PATH_SUFFIX;
 };
 
 window.addEventListener("load", setup);
