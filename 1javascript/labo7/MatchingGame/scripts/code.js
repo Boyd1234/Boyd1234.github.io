@@ -3,7 +3,7 @@ let global = {
     AANTAL_VERTICAAL: 3,
     AANTAL_KAARTEN: 6,
     KAARTEN: ["/images/kaart1.png", "/images/kaart2.jpg", "/images/kaart3.jpg", "/images/kaart4.jpg", "/images/kaart5.jpg", "/images/kaart6.jpg"],
-    ACHTERKANT: "images/achterkant.png";
+    ACHTERKANT: "images/achterkant.png",
     ISBEZIG: false,
     OMGEDRAAIDE_KAARTEN: [],
     timeoutId: 0,
