@@ -1,0 +1,48 @@
+#btnGo{
+    width: 80%;
+    background-color: green;
+    color: black
+}
+
+.card.google-card {
+    background-color: #4D8CFF;
+    color: white;
+}
+
+.card.google-card a {
+    background-color: red;
+    color: white;
+}
+
+.card.instagram-card{
+    background-color: purple;
+    color: white;
+}
+
+.card.instagram-card a {
+    background-color: #af6e00;
+    color: white;
+}
+
+.card.twitter-card{
+    background-color: #4D8CFF;
+    color: white;
+}
+
+.card.twitter-card a {
+    background-color: black;
+    color: white;
+}
+
+.card.youtube-card{
+    background-color: red;
+    color: white;
+}
+
+.card.youtube-card a {
+    background-color: black;
+    color: white;
+}
+div.card {
+    margin-bottom: 20px;
+}
